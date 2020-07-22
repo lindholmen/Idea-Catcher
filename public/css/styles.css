@@ -1,0 +1,73 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: rgb(131,58,180) !important;
+}
+
+.logo{
+    color:rgb(131,58,180);
+    font-size:x-large;
+    font-family: "Roboto Thin";
+}
+
+.parent_container > .container {
+    padding-bottom: 70px;
+}
+
+.parent_container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding-bottom: 60px;
+}
+
+.footer p {
+	margin-top: 20px;
+	font-size: 16px;
+    color: #fff;
+}
+
+h1{
+    font-family: "Roboto Thin";
+    margin: 5rem auto 1rem auto;
+
+}
+
+p{
+    font-family: "Al Bayan";
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d2d7da;
+}
+
+h2{
+    font-family: "Roboto Thin";
+    margin: 5rem auto 1rem auto;
+}
+
+#introduction{
+    font-family: "Roboto Thin";
+    line-height: 2.5rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #ffffff;
+    font-size: 1.5rem;
+}

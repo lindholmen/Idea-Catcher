@@ -1,0 +1,13 @@
+<%- include('partials/header') -%>
+<h2>Home</h2>
+<p id="introduction"><%= homeStartingContent %></p>
+
+<% for (post of posts) { %>
+    <div class="section">
+        <h1><%= post["postTitle"] %></h1>
+        <% abstractText = post["postText"].slice(0,100) %>
+        <p><%=abstractText %> <a href="/post/<%= post["postTitle"].replace(/\s+/g, '-').toLowerCase() %>">...Read More</a></p>
+    </div>
+<% }%>
+
+<%- include('partials/footer') -%>

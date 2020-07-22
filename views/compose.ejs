@@ -1,0 +1,16 @@
+<%- include('partials/header') -%>
+<h2>Catch it</h2>
+<form class="needs-validation" method="post" action="/compose" id="composeForm">
+    <div class="form-group">
+        <label for="postTitle">Title</label>
+        <input type="text" class="form-control" id='postTitle' name="postTitle" placeholder="Title" autocomplete="off" required>
+    </div>
+    <div class="form-group">
+        <label for="postText">Text</label>
+        <textarea rows="4" cols="30" class="form-control" id="postText" name="postText" form="composeForm" placeholder="Compose your text" autocomplete="off" required></textarea>
+    </div>
+    <button type="submit" class='btn btn-primary' name="btn" value="btn">Catch it!</button>
+</form>
+
+
+<%- include('partials/footer') -%>
